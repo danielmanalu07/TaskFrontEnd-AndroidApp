@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/MyBackground</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.TaskFrontEnd</item>
+        <item name="windowSplashScreenAnimationDuration">3000</item>
+    </style>
+
+    <style name="Theme.TaskFrontEnd" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
